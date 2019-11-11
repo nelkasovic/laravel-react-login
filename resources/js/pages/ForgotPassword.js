@@ -120,14 +120,14 @@ class ForgotPassword extends Component {
             <div className="row">
               <div className="section-login col-lg-6 ml-auto mr-auto">
 
-                <h4>Request Password Reset</h4>
+                <h4>Kennwort zurücksetzen</h4>
 
                 <div className="card-login card mb-3">
                   <div className="card-body">
 
                     {this.state.success &&
                     <div className="alert alert-success text-center" role="alert">
-                      A password reset link has been sent!
+                      Ein Link zum Ändern wurde verschickt!
                     </div>
                     }
 
@@ -141,7 +141,7 @@ class ForgotPassword extends Component {
                     <form className="form-horizontal" method="POST" onSubmit={this.handleSubmit} ref={(el) => { this.forgotPasswordForm = el; }}>
 
                       <div className="form-group">
-                        <label htmlFor="email">Email Address</label>
+                        <label htmlFor="email">E-Mail Adresse</label>
                         <input
                           id="email"
                           type="email"
@@ -150,7 +150,7 @@ class ForgotPassword extends Component {
                               'is-invalid': ('email' in errors),
                             })
                           }
-                          placeholder="Enter email"
+                          placeholder="E-Mail Adresse eingeben"
                           required
                           onChange={this.handleChange}
                           onBlur={this.handleBlur}
@@ -169,7 +169,7 @@ class ForgotPassword extends Component {
                             'btn-loading': loading,
                           })}
                         >
-                          Send Password Reset Email
+                          Link zum Zurücksetzen senden
                         </button>
                       </div>
 

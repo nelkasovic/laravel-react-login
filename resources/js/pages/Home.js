@@ -114,8 +114,7 @@ class Home extends Component {
               <div className="section-about col-lg-6 mb-4 mb-lg-0">
                 <div>
                   <h2>Strommarkt Monitor</h2>
-                  <p>Anwendung zur Überwachung der Preise auf dem Strommarkt.</p>
-                  <p>Eine Dienstleistung von <a href="https://www.snenergie.ch/">SN Energie AG</a> und <a href="https://evu-solutions.ch/">EVU Solutions</a>.</p>
+                  <p>Anwendung zur Überwachung der Preise auf dem Strommarkt. Eine Dienstleistung von <a href="https://www.snenergie.ch/">SN Energie AG</a> und <a href="https://evu-solutions.ch/">EVU Solutions</a>.</p>
                 </div>
               </div>
               <div className="section-login col-lg-6">
